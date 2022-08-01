@@ -1,0 +1,49 @@
+body {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.page-header {
+    min-width: 76.25rem;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-navigation {
+
+    &__list {
+        display: flex;
+        align-items: center;
+    }
+
+    &__item {
+        list-style: none;
+        margin-right: 30px;
+    }
+
+    &__link {
+        text-decoration: none;
+    }
+}
+.user-navigation__list {
+    display: flex;
+    align-items: center;
+}
+
+.sale {
+    background-image: url(../Images/baner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 800px;
+}
